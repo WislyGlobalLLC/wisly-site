@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://wislygloballlc.github.io/wisly-site/sitemap.xml
+
+# Disallow admin or private paths (when added)
+# Disallow: /admin/
+# Disallow: /api/
+# Disallow: /private/
+
+# Crawl-delay for polite bots
+Crawl-delay: 1

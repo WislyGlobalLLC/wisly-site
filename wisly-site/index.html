@@ -7,6 +7,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;700;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- SEO & Social -->
+    <meta name="description" content="20 مشروعاً متخصصاً تحت مظلة Wisly Global. من الأمن السيبراني إلى الذكاء الاصطناعي، من الصحة إلى البلوكتشين.">
+    <meta property="og:title" content="Wisly Global Ecosystem">
+    <meta property="og:description" content="النظام البيئي الرقمي السيادي — 20 مشروعاً متخصصاً">
+    <meta property="og:image" content="https://wislygloballlc.github.io/wisly-site/assets/images/og-image.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#D4AF37">
+
+    <!-- Analytics -->
+    <script src="assets/js/analytics.js" defer></script>
+
+    <!-- Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/service-worker.js');
+      }
+    </script>
+    
     <style>
         :root {
             --primary: #D4AF37;
